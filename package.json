@@ -1,14 +1,11 @@
 {
   "name": "guess-mine",
   "version": "1.0.0",
-  "description": "Realtime Game built with SocketIO, Gulp and Node",
+  "description": "Realtime Drawing Game built with SocketIO, Gulp and Node",
   "main": "index.js",
-  "scripts": {
-    "dev:server": "nodemon --exec babel-node src/server --ignore assets/ --ignore src/static",
-    "dev:assets": "gulp"
-  },
-  "author": "",
-  "license": "ISC",
+  "repository": "https://github.com/nomadcoders/guess-mine",
+  "author": "Nicolás Serrano Arévalo <itnico.las.me@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "@babel/core": "^7.4.3",
     "@babel/node": "^7.2.2",
@@ -27,6 +24,10 @@
     "nodemon": "^1.18.11",
     "pug": "^2.0.3",
     "socket.io": "^2.2.0"
+  },
+  "scripts": {
+    "dev:server": "nodemon --exec babel-node src/server --ignore assets/ --ignore src/static",
+    "dev:assets": "gulp"
   },
   "devDependencies": {
     "eslint-config-prettier": "^4.1.0",

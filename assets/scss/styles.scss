@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
 @import "variables";
-//@import "reset";
+@import "reset";
 @import "login";
 @import "notifications";
 @import "chat";
-//@import "game";
-//@import "board";
+@import "game";
+@import "board";
 
 * {
   box-sizing: border-box;
